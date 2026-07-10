@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import { motion, useInView, AnimatePresence } from "motion/react";
 import { Play, X, Camera, Video } from "lucide-react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-import { ImageWithFallback } from "../figma/ImageWithFallback";
+import { ImageWithFallback } from "../../figma/ImageWithFallback";
 
 function FadeIn({ children, delay = 0, className = "" }: { children: React.ReactNode; delay?: number; className?: string }) {
   const ref = useRef(null);

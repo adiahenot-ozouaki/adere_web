@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "motion/react";
 import { Scale, Shield, Heart, TrendingUp, Users, Eye, Target, Globe, CheckCircle2 } from "lucide-react";
-import { ImageWithFallback } from "../figma/ImageWithFallback";
+import { ImageWithFallback } from "../../figma/ImageWithFallback";
 
 const CITY_IMG = "https://images.unsplash.com/photo-1771495604392-2008757fb32a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxBZnJpY2ElMjBjaXR5JTIwbW9kZXJuJTIwaW5mcmFzdHJ1Y3R1cmUlMjBkZXZlbG9wbWVudCUyMHVyYmFufGVufDF8fHx8MTc4MzQyNDgwM3ww&ixlib=rb-4.1.0&q=80&w=1080";
 

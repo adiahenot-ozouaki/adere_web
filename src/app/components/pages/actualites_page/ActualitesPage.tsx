@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { motion, useInView } from "motion/react";
 import { Search, ArrowRight, Tag } from "lucide-react";
-import { ImageWithFallback } from "../figma/ImageWithFallback";
+import { ImageWithFallback } from "../../figma/ImageWithFallback";
 import { Link } from "react-router";
 
 function FadeIn({ children, delay = 0, className = "" }: { children: React.ReactNode; delay?: number; className?: string }) {

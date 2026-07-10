@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { motion, useInView } from "motion/react";
 import { CheckCircle2, Quote, ChevronDown, ChevronUp } from "lucide-react";
-import { ImageWithFallback } from "../figma/ImageWithFallback";
+import { ImageWithFallback } from "../../figma/ImageWithFallback";
 
 const PRESIDENT_IMG = "https://images.unsplash.com/photo-1612813561206-b5db45fb4068?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2ElMjBwcmVzaWRlbnQlMjBwb2xpdGljaWFuJTIwcG9ydHJhaXQlMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzgzNDI0NzkwfDA&ixlib=rb-4.1.0&q=80&w=1080";
 const PRESIDENT_IMG2 = "https://images.unsplash.com/photo-1612813560949-e1d3f2774c31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxBZnJpY2ElMjBwcmVzaWRlbnQlMjBwb2xpdGljaWFuJTIwcG9ydHJhaXQlMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzgzNDI0NzkwfDA&ixlib=rb-4.1.0&q=80&w=1080";

@@ -7,7 +7,7 @@ import {
   ChevronRight, ArrowRight, Quote, Calendar, MapPin, Star,
   CheckCircle2, Award, BarChart2
 } from "lucide-react";
-import { ImageWithFallback } from "../figma/ImageWithFallback";
+import { ImageWithFallback } from "../../figma/ImageWithFallback";
 
 const HERO_IMG = "https://images.unsplash.com/photo-1552710307-8d1c604d6319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2FuJTIwY2l0aXplbnMlMjBjb21tdW5pdHklMjBJdm9yeSUyMENvYXN0JTIwcGVvcGxlJTIwY3Jvd2R8ZW58MXx8fHwxNzgzNDI0Nzg5fDA&ixlib=rb-4.1.0&q=80&w=1080";
 const PRESIDENT_IMG = "https://images.unsplash.com/photo-1612813561206-b5db45fb4068?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBZnJpY2ElMjBwcmVzaWRlbnQlMjBwb2xpdGljaWFuJTIwcG9ydHJhaXQlMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzgzNDI0NzkwfDA&ixlib=rb-4.1.0&q=80&w=1080";
